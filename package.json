@@ -3,9 +3,10 @@
   "description": "introduction to react",
   "version": "0.0.1",
   "dependencies": {
-    "react-tools": "0.13.3"
+    "react-tools": "0.13.3",
+    "bower": "latest"
   },
   "scripts": {
-    "build": "node_modules/react-tools/bin/jsx src/javascripts/ build/"
+    "build": "./node_modules/react-tools/bin/jsx src/javascripts/ build/"
   }
 }
